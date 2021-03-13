@@ -5,11 +5,6 @@
     </h1>
     <strong>For SelfBot</strong>
 </div>
-<p align="center">
-  <a href="https://discord.gg/YkUsSXgQxj">
-    <img src="https://img.shields.io/website?label=ICExFS&style=for-the-badge&url=https://youtube.com" alt="ICE Badge">
-  </a>
-</p>
 
 # What's that? 🍹
 DiscordStatus is an app made with D.PY, Quart, and D.IPC. It makes your profile looks better with a nice streaming status 🍾
