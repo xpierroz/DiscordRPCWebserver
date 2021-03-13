@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css')}}">
+    <title>DiscordStatus - Home</title>
+</head>
+<body>
+    <div class="whiteb"></div>
+    <div class="btn">
+        <form method="post">
+            <label for="sname" class="SNAME">
+                Stream Name 🎬
+            </label>
+            <input type="text" id="sname" name="sname" class="SNAME_TEXT">
+            <label for="surl" class="SURL">
+                Stream URL 🏆
+            </label>
+            <input type="text" id="surl" name="surl" class="SURL_TEXT">
+            <input type="submit" value="Stream 😎" class="STREAM">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #27123D;
+}
+
+.whiteb {
+    height: 375px;
+    width: 500px;
+    background-color: #E9E9E9;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    font-family: "Montserrat";
+}
+
+.SNAME{
+    color: #46246b;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.SNAME_TEXT {
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    color: #46246b;
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.SURL{
+    color: #46246b;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.SURL_TEXT {
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    color: #46246b;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.STREAM {
+    font-family: "Montserrat";
+    color: white;
+    background-color: #3A0770;
+    width: 15%;
+    padding: 1%;
+    list-style: none;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.STREAM:hover {
+    animation: STREAMHover 2s 1;
+    background-color: #50168f;
+    width: 18%;
+    padding: 1.5%;
+}
+
+@keyframes STREAMHover{
+    0% {
+        width: 15%;
+        padding: 1%;
+        background-color: #3A0770;
+    }
+    99% {
+        background-color: #50168f;
+        width: 18%;
+        padding: 1.5%;
+    }
+} 
