@@ -1,25 +1,23 @@
 <div align="center">
     <br>
     <h1>
-        The best Discord Status 🍿
+        A simple Discord RPC Client Exemple with a Website panel 🍿
     </h1>
-    <strong>For SelfBot</strong>
+    <strong>by pierro</strong>
 </div>
 
-# What's that? 🍹
-DiscordStatus is an app made with D.PY, Quart, and D.IPC. It makes your profile looks better with a nice streaming status 🍾
+# What is this ? 
+DiscordStatus is a Discord RPC Client with a webserver made with Flask and SocketIO. It makes your profile looks better with a nice streaming status 
+# How to test it? 
+* Create a discord application at `https://discord.com/developers/docs/intro`
+* Copy your application ID
+* Paste it in application_id
+* Start app.py *(which is the Flask/Web server)*
+* Start bot.py
+* Go to http://127.0.0.1:5000 
+* And you're done!
+# Can I get banned for this?
+No, this program isn't using a Selfbot at all. You can't get banned for this 😉
 
-# How can I use it? 🏹
-Everything to know how to use it is in the run file 🥂
-
-# How does it works? 🍉
-You need to put your token in Configuration.$. You run the app (everything to know on the `run` file). The quart app is (most likely) everytime on `http://127.0.0.1:5000`. Just go to this link, enter what Text & URL you want, then press "Stream"! A request will be sended, and your profile will get a nice streaming status! 🌊
-
-# Can I get banned for this? 🌴
-Sadly, yes. SelfBot aren't authorized in Discord. You have a low of change of getting banned. 🙁
-
-# Can I use it as a real bot, and not a self? 🚀
-YES! To get it, edit `bot.py`. Remove the `self_bot=True` & `bot=False`✨
-
-# Which packages was used? 📦
-Actually, every packages are in requirements.txt. You can install it using `pip install -r requirements.txt`
+# Please, contribute! 
+I'm not a web developer so don't hesitate to help with the HTML & CSS part! 
