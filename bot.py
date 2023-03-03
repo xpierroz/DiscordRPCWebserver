@@ -1,19 +1,9 @@
-import flask 
-from flask import Flask, redirect, render_template, request
-from flask_socketio import send, SocketIO
 import socketio
 
 from pypresence import Presence
-import time
 
 import os 
-import sys 
-
-import requests 
-import json
-
-import colorama 
-from colorama import init, Fore 
+from colorama import init 
 if os.name == 'nt':
     init(convert=True) # Windows users need this option to get their colors working
 
