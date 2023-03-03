@@ -12,8 +12,6 @@ import sys
 import requests 
 import json
 
-import time
-
 import colorama 
 from colorama import init, Fore 
 if os.name == 'nt':
