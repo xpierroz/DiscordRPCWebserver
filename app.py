@@ -1,6 +1,5 @@
-import flask 
-from flask import Flask, redirect, render_template, request
-from flask_socketio import send, SocketIO
+from flask import Flask, render_template, request
+from flask_socketio import SocketIO
       
 app = Flask('Discord Streaming Status')
 socketio = SocketIO(app)
