@@ -8,6 +8,7 @@
 
 # What is this ? 
 DiscordStatus is a Discord RPC Client with a webserver made with Flask and SocketIO. It makes your profile looks better with a nice streaming status 
+![WebS](ss.png)
 # How to test it? 
 * Create a discord application at `https://discord.com/developers/docs/intro`
 * Copy your application ID
